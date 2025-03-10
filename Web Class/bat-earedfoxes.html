@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Sanctuary</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #f0f0f0; /* Light grey background for header */
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+        }
+
+        .nav {
+            background-color: #e0e0e0; /* Slightly darker grey for navigation */
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 20px;
+        }
+
+        .nav .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .nav .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .nav .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .nav .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .nav .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .main-content {
+            display: flex;
+            padding: 20px;
+        }
+
+        .image-container {
+            width: 50%; /* Adjust width as needed */
+            padding-right: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .article {
+            width: 50%; /* Adjust width as needed */
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Wildlife Sanctuary Logo</div>
+       
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">GET INVOLVED</a>
+        <div class="dropdown">
+            <a href="#">Animals</a>
+            <div class="dropdown-content">
+                <a href="#">Cheetah</a>
+                <a href="#">Elephant</a>
+                <a href="#">Warthog</a>
+                </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="image-container">
+            <img src="gettyimages-1486741913-2048x2048.jpg" alt="Bat-eared Foxes" width="490" height="735">
+        </div>
+        <div class="article">
+            <p>The bat-eared fox is another Kenyan animal that belongs to the dog family. Its large ears
+                are its defining characteristic. It also feeds on insects like termites, lives alone or in small
+                groups, and has six more teeth than other foxes.
+                The bat-eared fox can be found in savannahs, arid scrublands, and grassy plains. It lives
+                in countries including Kenya, Tanzania, South Africa, Angola, and Zimbabwe. The
+                IUCN lists the bat-eared fox as least concern and as having a stable population, though
+                they are threatened by hunters, disease, and drought.
+    </p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Manyali Timothy 24/05987</p>
+    </div>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
