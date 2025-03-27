@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/webp" href="images/main.webp">
+    <title>Sanctuary Web</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #2E8B57; /* Forest green header */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu-bar {
+            background-color: #5D4037; /* Dark brown navigation */
+            padding: 10px 0;
+        }
+
+        .menu-bar ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            list-style-type: none;
+        }
+
+        .menu-bar li {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .menu-bar a:hover {
+            background-color: #4CAF50; /* Medium green hover */
+        }
+
+        .sub-menu {
+            display: none;
+            position: absolute;
+            background-color: #4CAF50; /* Medium green dropdown */
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .menu-bar li:hover .sub-menu {
+            display: block;
+        }
+
+        .sub-menu li {
+            width: 100%;
+            margin: 0;
+        }
+
+        .sub-menu a:hover {
+            background-color: #388E3C; /* Darker green hover */
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .h2 {
+            color: #2E8B57;
+            border-bottom: 2px solid #5D4037;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .p {
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .values {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .values img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid #5D4037;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .values p {
+            text-align: center;
+            width: 200px;
+            font-weight: bold;
+            color: #2E8B57;
+        }
+
+        footer {
+            background-color: #2E8B57;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .menu-bar ul {
+                flex-direction: column;
+            }
+            
+            .sub-menu {
+                position: static;
+            }
+            
+            .values {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="EST 2025.png" alt="Wildlife Sanctuary Logo" style="max-height: 250px;">
+    </div>
+
+    <div class="menu-bar">
+        <ul>
+            <li><a href="Web.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="get_involved.html">GET INVOLVED</a></li>
+            <li>
+                <a href="animals.html">ANIMALS</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="cheetah2.html">Cheetah</a></li>
+                        <li><a href="Elephant.html">Savannah Elephants</a></li>
+                        <li><a href="jackals.html">Black-backed Jackals</a></li>
+                        <li><a href="bat-earedfoxes.html">Bat-eared foxes</a></li>
+                        <li><a href="dik-diks.html">Dik-diks</a></li>
+                        <li><a href="hyenas.html">Hyenas</a></li>
+                        <li><a href="white-bellied go-away birds.html">White-bellied</a></li>
+                        <li><a href="desert-warthog.html">Desert Warthog</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="main">
+            <div class="h2">
+                <h2>Home</h2>
+            </div>
+            <div class="p">
+                <p>An incredible 25% of the world's biodiversity is found in Africa - and Kenya, on the eastern coast of the African continent, is one of the ten most biodiverse countries on earth.</p>
+                <p>According to recent estimates, Kenya is home to 25,000 animal species, including many large mammals, 7,000 plant species and 2,000 fungi and bacteria species. These species thrive in Kenya's rich array of ecosystems, from lush forests and savannahs to the snow-capped peaks of Mount Kenya and arid scrublands.</p>
+                <p>There are also plenty of aquatic habitats in Kenya both along the coast and inland. Kenya is home to 467 inland lake and wetland habitats, which support a diverse selection of wildlife and animals.</p>
+                <p>Rich biodiversity and a wide variety of ecosystems allow a large range of animals and wildlife to thrive in Kenya. So, let's take a closer look at the amazing animals you can find in Kenya.</p>
+            </div>
+        </div>
+
+        <h2 class="h2">Our Values</h2>   
+        <div class="values">
+            <div>
+                <img src="istockphoto-1140800646-1024x1024.jpg" alt="Justice for wildlife">
+                <p>Ensuring justice for wildlife</p>
+            </div>
+            <div>
+                <img src="istockphoto-1791484127-1024x1024.jpg" alt="Responding to crises">
+                <p>Responding to emerging crises</p>    
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Web Programmer: MANYALI TIMOTHY 24/05987</h3>
+    </footer>
+</body>
+</html>

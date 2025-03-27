@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Wildlife Sanctuary</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #2E8B57;
+            color: white;
+            padding: 10px;
+            text-align: center; /* Center the content horizontally */
+        }
+        
+        .header img {
+            max-height: 250px;
+            display: block; /* Makes the image behave as a block element */
+            margin: 0 auto; /* Centers the image horizontally */
+        }
+        .logo {
+            font-size: 1.5em;
+        }
+
+        .nav {
+            background-color: #5D4037; /* Dark brown for the navigation background */
+            color: white; /* White text for contrast */
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white; /* White text for links */
+            margin-right: 20px;
+        }
+
+        .nav .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .nav .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #4CAF50; /* Medium green for dropdown menu */
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .nav .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .nav .dropdown-content a {
+            color: white; /* White text for dropdown links */
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .nav .dropdown-content a:hover {
+            background-color: #388E3C; /* Darker green for hover effect */
+        }
+
+        .main-content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title {
+            color: #2E8B57;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #5D4037;
+            padding-bottom: 10px;
+        }
+
+        .about-section {
+            display: flex;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        .about-text {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .about-image {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .about-image img {
+            width: 100%;
+            border: 2px solid #5D4037;
+            border-radius: 5px;
+        }
+
+        .mission-values {
+            background-color: #F1F8E9;
+            padding: 30px;
+            border: 2px solid #5D4037;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .team-member {
+            width: 30%;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #5D4037;
+        }
+
+        .footer {
+            background-color: #2E8B57; /* Forest green for footer */
+            color: white; /* White text for contrast */
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column;
+            }
+            .team-member {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="EST 2025.png" alt="Wildlife Sanctuary Logo" style="max-height: 250px;">
+    </div>
+
+    <div class="nav">
+        <a href="Web.html">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="get_involved.html">GET INVOLVED</a>
+        <div class="dropdown">
+            <a href="#">ANIMALS</a>
+            <div class="dropdown-content">
+                <a href="cheetah2.html">Cheetah</a>
+                <a href="Elephant.html">Elephant</a>
+                <a href="desert-warthogs.html">Warthog</a>
+                <a href="jackals.html">Jackal</a>
+                <a href="bat-earedfoxes.html">Bat-eared Fox</a>
+                <a href="dik-diks.html">Dik Dik</a>
+                <a href="hyenas.html">Hyena</a>
+                <a href="white-bellied go-away birds.html">White-bellied</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1 class="page-title">About Our Wildlife Sanctuary</h1>
+        
+        <div class="about-section">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Founded in 2025, the Wild Nature Wildlife Sanctuary began as a small conservation effort to protect local species affected by habitat loss. What started as a 50-acre refuge has now grown into a 500-acre haven for over 200 species of animals, many of which are endangered or threatened.</p>
+                <p>Our sanctuary is dedicated to the rescue, rehabilitation, and protection of wildlife, with a special focus on species native to East Africa. We work closely with conservationists, researchers, and local communities to create sustainable solutions for wildlife preservation.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Sanctuary Aerial View">
+            </div>
+        </div>
+        
+        <div class="mission-values">
+            <h2>Our Mission & Values</h2>
+            <p><strong>Mission:</strong> To protect and conserve wildlife through rescue, rehabilitation, education, and habitat preservation while promoting harmonious coexistence between humans and animals.</p>
+            <h3>Core Values:</h3>
+            <ul>
+                <li><strong>Compassion:</strong> We treat all living creatures with respect and dignity.</li>
+                <li><strong>Conservation:</strong> We are committed to preserving biodiversity for future generations.</li>
+                <li><strong>Education:</strong> We believe knowledge is key to changing attitudes about wildlife.</li>
+                <li><strong>Community:</strong> We work with local populations to create sustainable solutions.</li>
+                <li><strong>Innovation:</strong> We employ cutting-edge techniques in animal care and habitat management.</li>
+            </ul>
+        </div>
+        
+        <div class="about-section">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1550358864-518f202c02ba" alt="Conservation Work">
+            </div>
+            <div class="about-text">
+                <h2>Our Conservation Work</h2>
+                <p>At Green Valley Wildlife Sanctuary, we operate several key conservation programs:</p>
+                <ul>
+                    <li>Wildlife Rescue and Rehabilitation Center</li>
+                    <li>Breeding Programs for Endangered Species</li>
+                    <li>Anti-Poaching Initiatives</li>
+                    <li>Habitat Restoration Projects</li>
+                    <li>Community Education Programs</li>
+                </ul>
+                <p>Our team of veterinarians, biologists, and conservationists work tirelessly to ensure the animals in our care receive the best possible treatment and have the opportunity to return to the wild whenever possible.</p>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Wild Nature Wildlife Sanctuary. All rights reserved.</p>
+        <p>Contact us: info@wildnaturesanctuary.org | +254 700 000000</p>
+    </div>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>

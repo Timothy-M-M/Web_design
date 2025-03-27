@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Wildlife Sanctuary</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #2E8B57; /* Forest green header */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu-bar {
+            background-color: #5D4037; /* Dark brown navigation */
+            padding: 10px 0;
+        }
+
+        .menu-bar ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            list-style-type: none;
+        }
+
+        .menu-bar li {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .menu-bar a:hover {
+            background-color: #4CAF50; /* Medium green hover */
+        }
+
+        .sub-menu {
+            display: none;
+            position: absolute;
+            background-color: #4CAF50; /* Medium green dropdown */
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .menu-bar li:hover .sub-menu {
+            display: block;
+        }
+
+        .sub-menu li {
+            width: 100%;
+            margin: 0;
+        }
+
+        .sub-menu a:hover {
+            background-color: #388E3C; /* Darker green hover */
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .h2 {
+            color: #2E8B57;
+            border-bottom: 2px solid #5D4037;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .p {
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .p ul {
+            margin-left: 20px;
+        }
+
+        .p li {
+            margin-bottom: 15px;
+        }
+
+        .p strong {
+            color: #2E8B57;
+        }
+
+        .involvement-options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 30px 0;
+        }
+
+        .option-card {
+            width: 48%;
+            background-color: #F1F8E9;
+            border: 2px solid #5D4037;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        .option-card h3 {
+            color: #2E8B57;
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #2E8B57;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .menu-bar ul {
+                flex-direction: column;
+            }
+            
+            .sub-menu {
+                position: static;
+            }
+            
+            .option-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="EST 2025.png" alt="Wildlife Sanctuary Logo" style="max-height: 250px;">
+    </div>
+    
+    <div class="menu-bar">
+        <ul>
+            <li><a href="Web.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="get_involved.html">GET INVOLVED</a></li>
+            <li>
+                <a href="animals.html">ANIMALS</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="cheetah2.html">Cheetah</a></li>
+                        <li><a href="Elephant.html">Savannah Elephants</a></li>
+                        <li><a href="jackals.html">Black-backed Jackals</a></li>
+                        <li><a href="bat-earedfoxes.html">Bat-eared foxes</a></li>
+                        <li><a href="dik-diks.html">Dik-diks</a></li>
+                        <li><a href="hyenas.html">Hyenas</a></li>
+                        <li><a href="white-bellied go-away birds.html">White-bellied</a></li>
+                        <li><a href="desert-warthog.html">Desert Warthog</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="main">
+            <div class="h2">
+                <h2>Get Involved</h2>
+            </div>
+            <div class="p">
+                <p>There are many ways you can support the wildlife sanctuary and make a difference. Whether through donations, volunteering, or raising awareness, every action helps. Here are some ways you can get involved:</p>
+                
+                <div class="involvement-options">
+                    <div class="option-card">
+                        <h3>Volunteer with Us</h3>
+                        <p>Help us with various tasks such as animal care, habitat restoration, educational outreach, and more. Our volunteer programs range from short-term opportunities to long-term commitments.</p>
+                    </div>
+                    
+                    <div class="option-card">
+                        <h3>Make a Donation</h3>
+                        <p>Your financial contribution helps us care for the animals, maintain their habitats, and fund conservation efforts. All donations are tax-deductible and directly support our mission.</p>
+                    </div>
+                    
+                    <div class="option-card">
+                        <h3>Adopt an Animal</h3>
+                        <p>You can symbolically adopt one of the animals at the sanctuary, helping to cover their daily care and feeding. Adoption packages include photos, updates, and visitation privileges.</p>
+                    </div>
+                    
+                    <div class="option-card">
+                        <h3>Spread the Word</h3>
+                        <p>Help raise awareness about the importance of wildlife conservation by sharing our mission and activities with your friends and family. Follow us on social media and help amplify our message.</p>
+                    </div>
+                </div>
+                
+                <p>For more information about how you can support our sanctuary, please contact our outreach coordinator at <strong>volunteer@wildlifesanctuary.org</strong> or call <strong>+254 700 000000</strong>.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Web Programmer: MANYALI TIMOTHY 24/05987</h3>
+    </footer>
+</body>
+</html>
